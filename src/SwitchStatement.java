@@ -31,4 +31,7 @@ public class SwitchStatement {
         }
         System.out.println(dayName);
     }
+
+
+
 }
