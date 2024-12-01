@@ -7,8 +7,14 @@ public class Chopper extends Flyable {
     public static void main(String[] args) {
         Chopper chop1 = new Chopper();
         {
-            chop1.fly();
-            chop1.chop();
+
+            chop1.chop(); //chopper class
+
+            chop1.fly(); // parent class Flyable
+            chop1.engines();
+            chop1.seaters();
+            chop1.wings();
+            chop1.speed();
         }
     }
 }
