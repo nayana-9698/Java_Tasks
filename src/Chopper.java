@@ -11,5 +11,4 @@ public class Chopper extends Flyable {
             chop1.chop();
         }
     }
-
 }
