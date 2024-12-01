@@ -1,3 +1,5 @@
+package groupTask;
+
 public interface Minutes {
 
     void min();

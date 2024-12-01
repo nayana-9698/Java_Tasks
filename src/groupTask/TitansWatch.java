@@ -1,5 +1,7 @@
-//public class TitansWatch extends Hours implements Minutes{
-public class TitansWatch extends Watch implements Hours,Minutes,Seconds,Price,Colour{
+package groupTask;
+
+//public class groupTask.TitansWatch extends groupTask.Hours implements groupTask.Minutes{
+public class TitansWatch extends Watch implements Hours, Minutes, Seconds, Price, Colour {
 
     public static void main(String[] args) {
         TitansWatch Twatch = new TitansWatch();
@@ -26,8 +28,8 @@ public class TitansWatch extends Watch implements Hours,Minutes,Seconds,Price,Co
         Twatch.silver();
 
    }
-   //@Override (Hours is an java class, we aren't able to override bcz we have extended Hours class which is inheritance)
-//    public void Hours(){
+   //@Override (groupTask.Hours is an java class, we aren't able to override bcz we have extended groupTask.Hours class which is inheritance)
+//    public void groupTask.Hours(){
 //
 //    }
 

@@ -1,7 +1,9 @@
+package groupTask;
+
 public class Chopper extends Flyable {
 
     public void chop(){
-        System.out.println("This is a chopper class from Child class of Flyable parent class");
+        System.out.println("This is a chopper class from Child class of groupTask.Flyable parent class");
     }
 
     public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class Chopper extends Flyable {
 
             chop1.chop(); //chopper class
 
-            chop1.fly(); // parent class Flyable
+            chop1.fly(); // parent class groupTask.Flyable
             chop1.engines();
             chop1.seaters();
             chop1.wings();

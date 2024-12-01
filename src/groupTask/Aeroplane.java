@@ -1,4 +1,6 @@
-public class Aeroplane extends Flyable{
+package groupTask;
+
+public class Aeroplane extends Flyable {
 
     public void aero(){
         System.out.println("This is an aeroplane class from child class");
@@ -9,7 +11,7 @@ public class Aeroplane extends Flyable{
 
         aero1.aero(); //Sub class 2
 
-        aero1.fly(); //Parent class Flyable
+        aero1.fly(); //Parent class groupTask.Flyable
         aero1.engines();
         aero1.seaters();
         aero1.speed();
