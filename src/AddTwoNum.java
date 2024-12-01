@@ -2,7 +2,8 @@ public class AddTwoNum {
     public static void main(String[] args) {
         String statement = "Ths is my program";
         int a=5;
-        int b=6;
+        long b=5l;
+        String d= "10";
 
         System.out.println(a+b);
         System.out.println(a-b);
@@ -11,6 +12,10 @@ public class AddTwoNum {
 
 
 
-
+if(d.equals(a)){
+    System.out.println("a");
+}else{
+    System.out.println("b");
+}
     }
 }
