@@ -1,6 +1,6 @@
 package groupTask;
 
-public interface Minutes {
+public interface Task2_Minutes {
 
 
     void min();

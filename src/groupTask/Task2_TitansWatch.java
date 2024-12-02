@@ -1,10 +1,10 @@
 package groupTask;
 
 //public class groupTask.TitansWatch extends groupTask.Hours implements groupTask.Minutes{
-public class TitansWatch extends Watch implements Hours, Minutes, Seconds, Price, Colour {
+public class Task2_TitansWatch extends Task2_Watch implements Task2_Hours, Task2_Minutes, Task2_Seconds, Task2_Price, Task2_Colour {
 
     public static void main(String[] args) {
-        TitansWatch Twatch = new TitansWatch();
+        Task2_TitansWatch Twatch = new Task2_TitansWatch();
         Twatch.brand(); //java class
 
         Twatch.hour(); //interface class 1

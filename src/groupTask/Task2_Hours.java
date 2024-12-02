@@ -1,6 +1,6 @@
 package groupTask;
 
-public interface Hours {
+public interface Task2_Hours {
 
 
     void hour();

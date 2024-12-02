@@ -1,6 +1,6 @@
 package groupTask;
 
-public interface Seconds {
+public interface Task2_Seconds {
 
     void sec();
     void tenSec();

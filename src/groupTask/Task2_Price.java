@@ -1,6 +1,6 @@
 package groupTask;
 
-public interface Price {
+public interface Task2_Price {
 
     void lowPrice();
     void mediumPrice();

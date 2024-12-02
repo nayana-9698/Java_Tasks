@@ -1,6 +1,6 @@
 package groupTask;
 
-public interface Colour {
+public interface Task2_Colour {
 
 
     void black();
