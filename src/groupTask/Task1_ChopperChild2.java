@@ -11,6 +11,7 @@ public class Task1_ChopperChild2 extends Task1_FlyableParent{
         {
             chop1.chop(); //chopper class
 
+
             chop1.fly(); // parent class Flyable
             chop1.engines();
             chop1.seaters();
