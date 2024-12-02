@@ -9,7 +9,6 @@ public class Task1_ChopperChild2 extends Task1_FlyableParent{
     public static void main(String[] args) {
         Task1_ChopperChild2 chop1 = new Task1_ChopperChild2();
         {
-
             chop1.chop(); //chopper class
 
             chop1.fly(); // parent class Flyable
